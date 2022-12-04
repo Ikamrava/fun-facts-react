@@ -1,0 +1,24 @@
+.header-wrapper{
+display: flex;
+justify-content: space-between;
+max-width: 540px;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+gap: 5px;
+background-color: #21222A;
+color: white;
+padding: 10px;
+box-sizing: border-box;
+
+}
+
+
+
+.react-facts{
+    flex: 2;
+}
+
+.react-facts{
+    color: #61DAFB ;
+}

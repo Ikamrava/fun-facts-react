@@ -2,10 +2,11 @@ import React from 'react'
 import "./Main.css"
 import image from "./images/reactjs-icon.png"
 
-function Main() {
+function Main(props) {
   return (
-    <div className='mainwrapper'>
+    <div className={props.darkMode ? "dark mainwrapper" : "mainwrapper"}>
       <h1>Fun facts about React</h1>
+      
       <ul>
         <li>Was first released in 2013</li>
         <li>Was originally created by Jordan Walke</li>
